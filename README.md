@@ -21,4 +21,8 @@ I hope I'm not coming off as rude when saying I offer no support, but I'm done w
 
 The pack is ready for use straight out of the box. That is to say that the packs are already .ZIP'd (feel free to unzip them and do as you please). The naming convention I chose works off of the default setup of Terra, so simply by having your world recognizing Terra in your bukkit settings or whatever should be enough for this pack to work.
 
+This pack adds several new biomes alongside Terra's default biomes. Some of Terra's default biomes have been modified. This pack is "complete" in a sense that I've personally used it on a production server with no real issues and have no plans of adding anything else to it.
+
+This pack was designed for Minecraft 1.16 and as such does not utilize the cave system structuring or height changes done in Minecraft 1.17.
+
 Good luck, have fun, and may your creativity have no bounds.
