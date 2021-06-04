@@ -2,6 +2,13 @@
 "Creative Lands" pack for Terra
 (because I don't really have a good name for it lol)
 
+
+# HOW TO USE
+
+Download default.zip, place it into the appropriate Terra directory. Unzip if you want to modify anything.
+
+# READ ME
+
 This pack was originally intended for personal use only, but I have since stopped working on Minecraft servers and decided to publish it for public use.
 
 That said, this pack includes large schematics. These will slow world generation considerably and in the case of lesser hardware, crash the generation process completely.
