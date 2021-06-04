@@ -12,4 +12,6 @@ I offer little-to-no support for this pack. Feel free to look through it, see so
 
 I hope I'm not coming off as rude when saying I offer no support, but I'm done with Minecraft for now and have no desire to mess with it in any capacity.
 
-Good luck and have fun!
+The pack is ready for use straight out of the box. That is to say that the packs are already .ZIP'd (feel free to unzip them and do as you please). The naming convention I chose works off of the default setup of Terra, so simply by having your world recognizing Terra in your bukkit settings or whatever should be enough for this pack to work.
+
+Good luck, have fun, and may your creativity have no bounds.
