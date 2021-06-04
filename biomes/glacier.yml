@@ -1,0 +1,23 @@
+#noise-equation: "((-((y / 67)^2)) + 1) + |noise2(x/2.5, z/2.5)|"
+noise-equation: "((-((y / 67)^2)) + 2) + |noise2(x/2.5, z/2.5)| + |noise3(x, y, z) * 3|"
+elevation:
+#  equation: "min(floor(((|noise2(x/4, z/4)|) + 0.1)*6)*0.175, 12)"
+  equation: "min(floor(((|noise2(x/2.5, z/2.5)|) - 0.8)*8)*0.175, 12) * 1.5"
+  interpolation: true
+
+id: "GLACIER"
+extends: "BASIC_ORES"
+
+erode: GLACIER
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - GLACIAL: 255
+vanilla: FROZEN_OCEAN
+prevent-smooth: true
+
+
+tags:
+  - "OCEAN"

@@ -1,0 +1,38 @@
+extends: "MUSHROOM_ABSTRACT"
+id: "MUSHROOM"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - MYCELIUM: 255
+vanilla: MUSHROOM_FIELDS
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - VILLAGE_HOUSE_OAK
+  - DUNGEON
+
+flora:
+  - density: 10
+    y:
+      min: 62
+      max: 200
+    items:
+      - RED_MUSHROOM: 50
+      - BROWN_MUSHROOM: 50
+
+trees:
+  - density: 2
+    items:
+      MUSHROOMISLE: 2
+    y:
+      min: 63
+      max: 180
+
+
+tags:
+  - "OCEAN"
+# Carving and ores covered by super biome

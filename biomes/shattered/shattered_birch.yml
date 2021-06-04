@@ -1,0 +1,39 @@
+noise-equation: "((-((y / base)^2)) + 1) + |((noise2(x, z)+0.5) / 3.5)| + |noise3(x, y, z) * 3|"
+id: "SHATTERED_BIRCH"
+extends: BASIC_ORES
+erode: RIVER
+
+carving:
+  CAVE_BIRCH: 80
+  RAVINE: 2
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - PODZOL_SHORE: 62
+  - PODZOL: 255
+vanilla: BIRCH_FOREST_HILLS
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - VILLAGE_HOUSE_OAK
+
+trees:
+  - density: 15
+    items:
+      - BIRCHCUST: 5
+      - TALLBIRCH: 10
+      - WIDEBIRCH: 1
+    y:
+      min: 58
+      max: 150
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE
+# Carving and ores covered by super biome

@@ -1,0 +1,74 @@
+extends: "FOREST_ABSTRACT"
+id: "FOREST"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: FOREST
+carving:
+  CAVE_FOREST: 80
+  RAVINE: 2
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - VILLAGE_HOUSE_OAK
+  - DUNGEON
+  - VILLAGE_PLAINS
+
+flora:
+  - density: 45
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 750
+      - POPPY: 50
+      - ROSE_BUSH: 4
+      - LILAC: 4
+      - LEAVES: 100
+  - density: 15
+    items:
+      - CEILING_FOLIAGE: 5
+      - GROUND_FOLIAGE: 2
+    y:
+      min: 15
+      max: 62
+  - density: 1
+    items:
+      - CEILING_GLOWSTONE: 1
+    y:
+      min: 15
+      max: 62
+trees:
+  - density: 4
+    items:
+      - FORESTCUST: 2
+      - FORESTSHRUB: 2
+      - WIDEFORESTCUST: 1
+    y:
+      min: 62
+      max: 180
+  - density: 6
+    items:
+      - CAVEBUSH: 6
+    y:
+      min: 20
+      max: 50
+  - density: 1
+    items:
+      - CAVETREE: 1
+    y:
+      min: 20
+      max: 50
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE

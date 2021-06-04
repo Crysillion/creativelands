@@ -1,0 +1,29 @@
+extends: "BEACH_ABSTRACT"
+id: "MUSHROOM_BEACH"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - SAND_ALL: 255
+vanilla: MUSHROOM_FIELD_SHORE
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - VILLAGE_HOUSE_OAK
+  - DUNGEON
+
+trees:
+  - density: 1
+    items:
+      MUSHROOMISLE: 1
+    y:
+      min: 63
+      max: 180
+
+
+tags:
+  - "OCEAN"
+# Carving and ores covered by super biome

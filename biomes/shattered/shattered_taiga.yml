@@ -1,0 +1,40 @@
+noise-equation: "-((y/60)^2) + 1 + (1/(2 + 10^-noise2(x, z))) + |noise3(x * 2, y * 2, z * 2) * 5|"
+id: "SHATTERED_TAIGA"
+extends: BASIC_ORES
+erode: RIVER
+flora:
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 70
+      - SWEET_BERRIES: 5
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - TAIGA: 255
+vanilla: TAIGA
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - DUNGEON
+  
+trees:
+  - density: 4
+    items:
+      - PINE: 1
+    y:
+      min: 58
+      max: 150
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE

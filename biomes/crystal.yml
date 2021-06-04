@@ -1,0 +1,34 @@
+extends: "PLAINS_ABSTRACT"
+id: "CRYSTAL"
+
+carving:
+  CAVE_CRYSTAL: 80
+  RAVINE: 2
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - CRYSTAL_SHORE: 62
+  - CRYSTAL: 255
+vanilla: PLAINS
+
+structures:
+  - STRONGHOLD
+
+trees:
+  - density: 5
+    items:
+      - CRYSTAL: 3
+      - TWISTEDMUSHROOM: 3
+    y:
+      min: 50
+      max: 200
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE
+# Carving and ores covered by super biome

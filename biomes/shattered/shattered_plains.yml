@@ -1,0 +1,36 @@
+noise-equation: "-((y/60)^2) + 1 + (1/(2 + 10^-noise2(x, z))) + |noise3(x, y, z) * 3|"
+id: "SHATTERED_PLAINS"
+extends: BASIC_ORES
+erode: RIVER
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: PLAINS
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - VILLAGE_HOUSE_OAK
+  - DUNGEON
+
+flora:
+  - density: 50
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 700
+      - SUNFLOWER: 20
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE
+# Carving and ores covered by super biome

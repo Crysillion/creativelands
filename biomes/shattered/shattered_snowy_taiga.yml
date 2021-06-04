@@ -1,0 +1,40 @@
+noise-equation: "-((y/60)^2) + 1 + (1/(2 + 10^-noise2(x, z))) + |noise3(x * 2, y * 2, z * 2) * 5|"
+id: "SHATTERED_SNOWY_TAIGA"
+extends: BASIC_ORES
+erode: RIVER
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - TAIGA: 255
+vanilla: TAIGA
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - DUNGEON
+  
+flora:
+  - density: 80
+    y:
+      min: 62
+      max: 156
+    items:
+      - SNOW: 1
+
+trees:
+  - density: 8
+    items:
+      - PINE: 1
+    y:
+      min: 58
+      max: 150
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE

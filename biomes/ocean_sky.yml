@@ -1,0 +1,59 @@
+id: "OCEAN_SKY"
+extends: "BASIC_ORES"
+
+#noise-equation: "if(max(y-96, 0), min(max(y-96, 0)/30, 1)*noise3(x, y*1.5, z)-0.75, ((-((y / base)^2)) + 1) + |(noise2(x, z) / 3) + 0.1|)"
+#noise-equation: "((-((y / 48)^2)) + 1) + ((noise2(x, z)/3))"
+#noise-equation: "if(max(y-96, 0), -(if(max(y-150, 0), |y-150|, |y-150|/16)) - 0.25 + (noise2(x*3, z*3)*3), ((-((y / 63)^2)) + 1) + |(noise2(x, z) / 3) + 0.1|)"
+#noise-equation: "if(max(y-96, 0), -(if(max(y-150, 0), |y-150|, |y-150|/16)) - 0.25 + (noise2(x*2, z*2)*2) + 0.9, ((-((y / 63)^2)) + 0.1) + |(noise2(x, z) / 3) + 0.1|)"
+noise-equation: "if(max(y-96, 0), -(if(max(y-150, 0), |y-150| + |noise3(x, y, z) * 3|, |y-150|/16)) - 0.25 + (noise2(x*2, z*2)*2) + 0.9 + |noise3(x, y, z) * 2|, ((-((y / 63)^2)) + 0.1) + |(noise2(x, z) / 3) + 0.1|)"
+palette:
+  - RUINED: 255
+vanilla: OCEAN
+
+erode: OCEAN_SKY
+
+structures:
+  - DUNGEON
+
+trees:
+  - density: 4
+    items:
+      - RUINSCUST: 4
+    y:
+      min: 146
+      max: 210
+  - density: 0.1
+    items:
+      - BIGRUINSCUST: 1
+    y:
+      min: 146
+      max: 210
+  - density: 0.05
+    items:
+      - BIGRUINS2CUST: 1
+    y:
+      min: 146
+      max: 210
+  - density: 8
+    items:
+      - RUINBUSH: 8
+    y:
+      min: 146
+      max: 210
+  - density: 0.3
+    items:
+      - RUINLAMP: 1
+    y:
+      min: 146
+      max: 210
+  - density: 1
+    items:
+      - RUINTREE: 1
+    y:
+      min: 146
+      max: 210
+
+
+tags:
+  - "OCEAN"
+# Carving and ores covered by super biome
