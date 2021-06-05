@@ -8,10 +8,6 @@
 Download the latest release, place it into the appropriate Terra directory. Unzip if you want to modify anything.    
 The pack ID is `CREATIVELANDS`. See Terra's [installing a Config Pack](https://github.com/PolyhedralDev/Terra/wiki/Config-Packs#how-do-i-install-a-pack) guide if you need help installing.
 
-This pack was intentionally left as being .ZIP'd due to it having over a hundred structures and schematics within it for the custom biome creation.
-
-You can unzip it using many programs, such as 7Zip and WinRAR, but you will not actually need to unzip it to use it.
-
 # READ ME
 
 This pack was originally intended for personal use only, but I have since stopped working on Minecraft servers and decided to publish it for public use.
