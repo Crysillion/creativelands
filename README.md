@@ -7,6 +7,10 @@
 
 Download default.zip, place it into the appropriate Terra directory. Unzip if you want to modify anything.
 
+This pack was intentionally left as being .ZIP'd due to it having over a hundred structures and schematics within it for the custom biome creation.
+
+You can unzip it using many programs, such as 7Zip and WinRAR.
+
 # READ ME
 
 This pack was originally intended for personal use only, but I have since stopped working on Minecraft servers and decided to publish it for public use.
