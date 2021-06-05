@@ -1,0 +1,12 @@
+scripts:
+  dead1: 1
+  dead2: 1
+  dead3: 1
+  dead4: 1
+id: DEAD
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"

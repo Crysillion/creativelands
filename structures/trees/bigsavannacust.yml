@@ -1,0 +1,13 @@
+scripts:
+  bigsavanna1: 1
+  bigsavanna2: 1
+  bigsavanna3: 1
+  bigsavanna4: 1
+  bigsavanna5: 1
+  bigsavanna6: 1
+id: BIGSAVANNACUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:coarse_dirt"

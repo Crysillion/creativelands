@@ -1,0 +1,64 @@
+id "mushroom6";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(0, y + 0, -1) != "LAND") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-2, y + 9, -1, "minecraft:lime_terracotta");
+block(-2, y + 9, 0, "minecraft:lime_terracotta");
+block(-2, y + 9, 1, "minecraft:lime_terracotta");
+block(-1, y + 9, -2, "minecraft:lime_terracotta");
+block(-1, y + 10, -1, "minecraft:lime_terracotta");
+block(-1, y + 2, 0, "minecraft:white_terracotta");
+block(-1, y + 3, 0, "minecraft:white_terracotta");
+block(-1, y + 4, 0, "minecraft:white_terracotta");
+block(-1, y + 5, 0, "minecraft:white_terracotta");
+block(-1, y + 9, 0, "minecraft:white_terracotta");
+block(-1, y + 10, 0, "minecraft:white_terracotta");
+block(-1, y + 10, 1, "minecraft:lime_terracotta");
+block(-1, y + 9, 2, "minecraft:white_terracotta");
+block(0, y + 9, -2, "minecraft:lime_terracotta");
+block(0, y + 0, -1, "minecraft:air");
+block(0, y + 2, -1, "minecraft:white_terracotta");
+block(0, y + 3, -1, "minecraft:white_terracotta");
+block(0, y + 4, -1, "minecraft:white_terracotta");
+block(0, y + 5, -1, "minecraft:white_terracotta");
+block(0, y + 9, -1, "minecraft:white_terracotta");
+block(0, y + 10, -1, "minecraft:lime_terracotta");
+block(0, y + 0, 0, "minecraft:white_terracotta");
+block(0, y + 1, 0, "minecraft:white_terracotta");
+block(0, y + 2, 0, "minecraft:white_terracotta");
+block(0, y + 3, 0, "minecraft:white_terracotta");
+block(0, y + 4, 0, "minecraft:air");
+block(0, y + 5, 0, "minecraft:white_terracotta");
+block(0, y + 6, 0, "minecraft:white_terracotta");
+block(0, y + 7, 0, "minecraft:white_terracotta");
+block(0, y + 8, 0, "minecraft:white_terracotta");
+block(0, y + 9, 0, "minecraft:white_terracotta");
+block(0, y + 10, 0, "minecraft:lime_terracotta");
+block(0, y + 2, 1, "minecraft:white_terracotta");
+block(0, y + 3, 1, "minecraft:white_terracotta");
+block(0, y + 4, 1, "minecraft:white_terracotta");
+block(0, y + 5, 1, "minecraft:white_terracotta");
+block(0, y + 9, 1, "minecraft:white_terracotta");
+block(0, y + 10, 1, "minecraft:lime_terracotta");
+block(0, y + 9, 2, "minecraft:lime_terracotta");
+block(1, y + 9, -2, "minecraft:white_terracotta");
+block(1, y + 10, -1, "minecraft:lime_terracotta");
+block(1, y + 2, 0, "minecraft:white_terracotta");
+block(1, y + 3, 0, "minecraft:white_terracotta");
+block(1, y + 4, 0, "minecraft:white_terracotta");
+block(1, y + 5, 0, "minecraft:white_terracotta");
+block(1, y + 9, 0, "minecraft:white_terracotta");
+block(1, y + 10, 0, "minecraft:lime_terracotta");
+block(1, y + 10, 1, "minecraft:white_terracotta");
+block(1, y + 9, 2, "minecraft:lime_terracotta");
+block(2, y + 9, -1, "minecraft:lime_terracotta");
+block(2, y + 9, 0, "minecraft:lime_terracotta");
+block(2, y + 9, 1, "minecraft:lime_terracotta");

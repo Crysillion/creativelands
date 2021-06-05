@@ -1,0 +1,20 @@
+scripts:
+  bigtree1: 1
+  bigtree2: 1
+  stone1: 1
+  grove1: 5
+  grove2: 5
+  grove3: 5
+  grove4: 5
+  grove5: 5
+  grove6: 5
+  grove7: 5
+#  bigtreeA: 1
+#  bigtreeB: 1
+id: BIGTREE
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

@@ -1,0 +1,61 @@
+id "palm3";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(0, y + 0, 0) != "LAND") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-4, y + 8, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-3, y + 8, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-3, y + 9, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-2, y + 8, -3, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-2, y + 9, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-2, y + 8, 1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-1, y + 9, -2, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-1, y + 8, -1, "minecraft:cocoa[age=2,facing=east]");
+block(-1, y + 9, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-1, y + 10, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(-1, y + 9, 0, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 8, -5, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 8, -4, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 9, -4, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 9, -3, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 8, -2, "minecraft:cocoa[age=2,facing=south]");
+block(0, y + 9, -2, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 10, -2, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 6, -1, "minecraft:jungle_log[axis=y]");
+block(0, y + 7, -1, "minecraft:jungle_log[axis=y]");
+block(0, y + 8, -1, "minecraft:jungle_log[axis=y]");
+block(0, y + 9, -1, "minecraft:shroomlight");
+block(0, y + 10, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 0, 0, "minecraft:air");
+block(0, y + 2, 0, "minecraft:air");
+block(0, y + 3, 0, "minecraft:jungle_log[axis=y]");
+block(0, y + 4, 0, "minecraft:jungle_log[axis=y]");
+block(0, y + 5, 0, "minecraft:jungle_log[axis=y]");
+block(0, y + 8, 0, "minecraft:cocoa[age=2,facing=north]");
+block(0, y + 9, 0, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 10, 0, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 0, 1, "minecraft:jungle_log[axis=y]");
+block(0, y + 1, 1, "minecraft:jungle_log[axis=y]");
+block(0, y + 2, 1, "minecraft:jungle_log[axis=y]");
+block(0, y + 9, 1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 8, 2, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 9, 2, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(0, y + 8, 3, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(1, y + 9, -2, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(1, y + 8, -1, "minecraft:cocoa[age=2,facing=west]");
+block(1, y + 9, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(1, y + 10, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(1, y + 9, 0, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(2, y + 8, -3, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(2, y + 9, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(2, y + 8, 1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(3, y + 8, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(3, y + 9, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");
+block(4, y + 8, -1, "minecraft:jungle_leaves[distance=7,persistent=true]");

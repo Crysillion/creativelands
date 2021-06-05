@@ -1,0 +1,40 @@
+scripts:
+  colortree_red1: 1
+  colortree_red2: 1
+  colortree_red3: 1
+  colortree_red4: 1
+  colortree_red5: 1
+  colortree_red6: 1
+  colortree_orange1: 1
+  colortree_orange2: 1
+  colortree_orange3: 1
+  colortree_orange4: 1
+  colortree_orange5: 1
+  colortree_orange6: 1
+  colortree_yellow1: 1
+  colortree_yellow2: 1
+  colortree_yellow3: 1
+  colortree_yellow4: 1
+  colortree_yellow5: 1
+  colortree_yellow6: 1
+  colortree_brown1: 1
+  colortree_brown2: 1
+  colortree_brown3: 1
+  colortree_brown4: 1
+  colortree_brown5: 1
+  colortree_brown6: 1
+  colorbush_red1: 1
+  colorbush_red2: 1
+  colorbush_orange1: 1
+  colorbush_orange2: 1
+  colorbush_yellow1: 1
+  colorbush_yellow2: 1
+  colorbush_brown1: 1
+  colorbush_brown2: 1
+id: COLORTREE
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

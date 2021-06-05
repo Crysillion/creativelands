@@ -1,0 +1,15 @@
+scripts:
+  savanna1: 1
+  savanna2: 1
+  savanna3: 1
+  savanna4: 1
+  savanna5: 1
+  savanna6: 1
+  savanna7: 1
+  savanna8: 1
+id: SAVANNACUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:coarse_dirt"

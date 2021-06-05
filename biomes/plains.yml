@@ -1,0 +1,33 @@
+extends: "PLAINS_ABSTRACT"
+id: "PLAINS"
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: PLAINS
+
+structures:
+  - OUTPOST
+  - VILLAGE_HOUSE_OAK
+  - VILLAGE_PLAINS
+
+flora:
+  - density: 50
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 700
+      - SUNFLOWER: 20
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE
+# Carving and ores covered by super biome

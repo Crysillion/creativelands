@@ -1,0 +1,12 @@
+scripts:
+  ruinbush1: 1
+  ruinbush2: 1
+
+id: RUINBUSH
+y-offset: 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

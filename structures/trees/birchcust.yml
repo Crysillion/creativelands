@@ -1,0 +1,17 @@
+scripts:
+  birch1: 1
+  birch2: 1
+  birch3: 1
+  birch4: 1
+  birch5: 1
+  birch6: 1
+  birch7: 1
+  birch8: 1
+  birch9: 1
+  birch10: 1
+id: BIRCHCUST
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

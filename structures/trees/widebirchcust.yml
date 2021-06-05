@@ -1,0 +1,11 @@
+scripts:
+  widebirch1: 1
+  widebirch2: 1
+  widebirch3: 1
+  widebirch4: 1
+id: WIDEBIRCH
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

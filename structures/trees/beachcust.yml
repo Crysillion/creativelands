@@ -1,0 +1,12 @@
+scripts:
+  palm1: 2
+  palm2: 2
+  palm3: 2
+  driftwood1: 1
+  driftwood2: 1
+id: BEACHCUST
+y-offset: 1
+spawnable:
+  - "minecraft:sand"
+  - "minecraft:dirt"
+  - "minecraft:grass_block"

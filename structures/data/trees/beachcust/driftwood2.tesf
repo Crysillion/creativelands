@@ -1,0 +1,17 @@
+id "driftwood2";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(-1, y + 0, 0) != "LAND") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-1, y + 0, 0, "minecraft:air");
+block(-1, y + 0, 1, "minecraft:oak_log[axis=x]");
+block(0, y + 0, 0, "minecraft:air");
+block(0, y + 0, 1, "minecraft:oak_log[axis=x]");
+block(1, y + 0, 1, "minecraft:oak_log[axis=x]");

@@ -1,0 +1,9 @@
+scripts:
+  bigtree1: 1
+  bigtree1: 2
+id: DARK_OAK
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

@@ -1,0 +1,16 @@
+scripts:
+  lowswamp2: 1
+  lowswamp3: 1
+  lowswamp4: 1
+
+id: LOWSWAMPCUST
+y-offset: -2
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:soul_sand"
+  - "minecraft:brown_concrete_powder"
+  - "minecraft:grass_path"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"
+  - "minecraft:dirt"
+  - "minecraft:water"

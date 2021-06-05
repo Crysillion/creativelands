@@ -1,0 +1,10 @@
+scripts:
+  cavetree1: 1
+  cavetree2: 1
+id: CAVETREE
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:podzol"

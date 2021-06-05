@@ -1,0 +1,14 @@
+scripts:
+  ruintree1: 1
+  ruintree2: 1
+  ruintree3: 1
+  ruintree4: 1
+
+id: RUINTREE
+y-offset: 1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

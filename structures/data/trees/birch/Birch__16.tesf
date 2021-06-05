@@ -1,0 +1,121 @@
+id "Birch__16";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(-4, y + 11, -4) != "AIR") {
+        continue;
+    }
+    if(check(4, y + 11, -4) != "AIR") {
+        continue;
+    }
+    if(check(0, y + 1, -1) != "LAND") {
+        continue;
+    }
+    if(check(4, y + 11, 4) != "AIR") {
+        continue;
+    }
+    if(check(-4, y + 11, 4) != "AIR") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-2, y + 5, -1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-2, y + 7, -1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(-2, y + 5, 0, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-2, y + 4, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-2, y + 5, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-2, y + 7, 1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(-2, y + 8, 1, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(-2, y + 6, 2, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(-1, y + 5, -1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-1, y + 6, -1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-1, y + 7, -1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-1, y + 3, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(-1, y + 4, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(-1, y + 5, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(-1, y + 6, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(-1, y + 7, 0, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-1, y + 8, 0, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-1, y + 4, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-1, y + 5, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-1, y + 6, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(-1, y + 7, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-1, y + 8, 1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(-1, y + 4, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-1, y + 5, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-1, y + 6, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(-1, y + 7, 2, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(-1, y + 8, 2, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(0, y + 7, -2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(0, y + 5, -1, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 6, -1, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 7, -1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(0, y + 0, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 1, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 2, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 3, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 4, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 5, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 6, 0, "minecraft:birch_wood[axis=y]");
+block(0, y + 7, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 8, 0, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(0, y + 9, 0, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(0, y + 3, 1, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 4, 1, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 5, 1, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 6, 1, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(0, y + 7, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(0, y + 8, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(0, y + 9, 1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(0, y + 4, 2, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(0, y + 5, 2, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(0, y + 6, 2, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(0, y + 7, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(0, y + 8, 2, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(0, y + 5, 3, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(0, y + 6, 3, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(0, y + 7, 3, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(1, y + 5, -2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 6, -2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 3, -1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 5, -1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 6, -1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 7, -1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 8, -1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(1, y + 3, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(1, y + 4, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(1, y + 5, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(1, y + 6, 0, "minecraft:birch_leaves[distance=1,persistent=false]");
+block(1, y + 7, 0, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 2, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 3, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 4, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 5, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 6, 1, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(1, y + 7, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 8, 1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(1, y + 9, 1, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(1, y + 4, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 5, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 6, 2, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(1, y + 7, 2, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(1, y + 8, 2, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(1, y + 9, 2, "minecraft:birch_leaves[distance=6,persistent=false]");
+block(1, y + 6, 3, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(1, y + 7, 3, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(2, y + 6, -1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(2, y + 8, -1, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(2, y + 9, -1, "minecraft:birch_leaves[distance=6,persistent=false]");
+block(2, y + 5, 0, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(2, y + 6, 0, "minecraft:birch_leaves[distance=2,persistent=false]");
+block(2, y + 7, 0, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(2, y + 4, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(2, y + 5, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(2, y + 6, 1, "minecraft:birch_leaves[distance=3,persistent=false]");
+block(2, y + 7, 1, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(2, y + 8, 1, "minecraft:birch_leaves[distance=5,persistent=false]");
+block(2, y + 5, 2, "minecraft:birch_leaves[distance=4,persistent=false]");
+block(2, y + 6, 2, "minecraft:birch_leaves[distance=4,persistent=false]");

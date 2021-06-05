@@ -1,0 +1,38 @@
+extends: "PLAINS_ABSTRACT"
+id: "SKY_ISLANDS"
+
+#noise-equation: "if(max(y-96, 0), min(max(y-96, 0)/30, 1)*noise3(x, y*1.5, z)-0.75, ((-((y / base)^2)) + 1) + |(noise2(x, z) / 3) + 0.1|)"
+noise-equation: "if(max(y-96, 0), -(if(max(y-150, 0), |y-150|, |y-150|/16)) - 0.25 + (noise2(x*3, z*3)*3), ((-((y / 63)^2)) + 1) + |(noise2(x, z) / 3) + 0.1|)"
+palette:
+  - GRASSY: 255
+vanilla: PLAINS
+
+erode: SKY_ISLANDS
+
+structures:
+  - OUTPOST
+  - VILLAGE_HOUSE_OAK
+  - VILLAGE_PLAINS
+
+flora:
+  - density: 50
+    y:
+      min: 0
+      max: 255
+    items:
+      - TALL_GRASS: 150
+      - GRASS: 700
+      - SUNFLOWER: 20
+trees:
+  - density: 3
+    items:
+      - SHARDTREE: 1
+    y:
+      min: 100
+      max: 200
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE
+# Carving and ores covered by super biome

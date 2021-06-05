@@ -1,0 +1,11 @@
+scripts:
+  ruinlamp: 1
+
+id: RUINLAMP
+y-offset: 2
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

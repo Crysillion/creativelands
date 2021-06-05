@@ -1,0 +1,44 @@
+noise-equation: "-((y/60)^2) + 1 + (1/(2 + 10^-noise2(x, z))) + |noise3(x, y, z) * 3|"
+id: "SHATTERED_SAVANNA"
+extends: BASIC_ORES
+erode: RIVER
+
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - RIVER_BOTTOM: 61
+  - RIVER_SHORE: 62
+  - GRASSY: 255
+vanilla: SAVANNA
+
+structures:
+  - OUTPOST
+  - STRONGHOLD
+  - VILLAGE_HOUSE_OAK
+  
+flora:
+  - density: 40
+    y:
+      min: 62
+      max: 84
+    items:
+      - TALL_GRASS: 15
+      - GRASS: 70
+
+trees:
+  - density: 0.5
+    items:
+      ACACIA: 1
+      SAVANNACUST: 1
+      MEDSAVANNACUST: 1
+      BIGSAVANNACUST: 1
+    y:
+      min: 62
+      max: 128
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE

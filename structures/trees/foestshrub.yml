@@ -1,0 +1,15 @@
+scripts:
+  forestshrub1: 1
+  forestshrub2: 1
+  forestshrub3: 1
+  forestshrub4: 1
+  forestshrub5: 1
+  forestshrub6: 1
+  forestshrub7: 1
+id: FORESTSHRUB
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

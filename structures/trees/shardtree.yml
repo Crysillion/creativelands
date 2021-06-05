@@ -1,0 +1,18 @@
+scripts:
+  shardtree1: 1
+  shardtree2: 1
+  shardtree3: 1
+  shardtree4: 1
+  shardtree5: 1
+  shardtree6: 1
+  shardtree7: 1
+  shardtree8: 1
+  shardtree9: 1
+  shardtree10: 1
+id: SHARDTREE
+y-offset: -3
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

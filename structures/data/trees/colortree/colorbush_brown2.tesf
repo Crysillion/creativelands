@@ -1,0 +1,41 @@
+id "colorbush_brown2";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(1, y + 0, 1) != "LAND") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-1, y + 1, -2, "minecraft:brown_terracotta");
+block(-1, y + 1, -1, "minecraft:brown_wool");
+block(-1, y + 2, -1, "minecraft:brown_concrete");
+block(0, y + 1, -2, "minecraft:brown_terracotta");
+block(0, y + 2, -2, "minecraft:brown_terracotta");
+block(0, y + 0, -1, "minecraft:spruce_log[axis=y]");
+block(0, y + 1, -1, "minecraft:spruce_log[axis=y]");
+block(0, y + 2, -1, "minecraft:brown_terracotta");
+block(0, y + 3, -1, "minecraft:brown_terracotta");
+block(0, y + 0, 0, "minecraft:air");
+block(0, y + 1, 0, "minecraft:brown_terracotta");
+block(0, y + 2, 0, "minecraft:brown_concrete");
+block(1, y + 1, -3, "minecraft:brown_wool");
+block(1, y + 1, -2, "minecraft:brown_wool");
+block(1, y + 2, -2, "minecraft:brown_terracotta");
+block(1, y + 0, -1, "minecraft:spruce_log[axis=y]");
+block(1, y + 1, -1, "minecraft:spruce_log[axis=y]");
+block(1, y + 2, -1, "minecraft:brown_terracotta");
+block(1, y + 3, -1, "minecraft:brown_concrete");
+block(1, y + 0, 0, "minecraft:spruce_log[axis=y]");
+block(1, y + 1, 0, "minecraft:spruce_log[axis=y]");
+block(1, y + 2, 0, "minecraft:brown_wool");
+block(1, y + 0, 1, "minecraft:air");
+block(1, y + 1, 1, "minecraft:brown_terracotta");
+block(2, y + 1, -2, "minecraft:brown_wool");
+block(2, y + 1, -1, "minecraft:brown_concrete");
+block(2, y + 2, -1, "minecraft:brown_concrete");
+block(2, y + 1, 0, "minecraft:brown_concrete");
+block(3, y + 1, -1, "minecraft:brown_wool");

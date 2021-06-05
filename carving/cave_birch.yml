@@ -1,0 +1,48 @@
+id: "CAVE_BIRCH"
+extends: CAVE_ABSTRACT
+palette:
+  inner:
+    replace-blacklist: true
+    replace:
+      - "minecraft:air"
+      - "minecraft:water"
+      - "minecraft:lava"
+      - "minecraft:bedrock"
+      - "minecraft:ice"
+    layers:
+      - materials: { "minecraft:air": 1 }
+        y: 255
+      - materials: { "minecraft:lava": 1 }
+        y: 8
+  top:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:stone": 1 }
+        y: 255
+  outer:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:coarse_dirt": 1, "minecraft:dirt": 2 }
+        y: 255
+      - materials: { "minecraft:stone": 1 }
+        y: 18
+  bottom:
+    replace-blacklist: false
+    replace:
+      - "minecraft:stone"
+    layers:
+      - materials: { "minecraft:podzol": 1, "minecraft:dirt": 2 }
+        y: 255
+      - materials: { "minecraft:coarse_dirt": 2, "minecraft:stone": 1 }
+        y: 18
+      - materials: { "minecraft:coarse_dirt": 1, "minecraft:stone": 2 }
+        y: 17
+      - materials: { "minecraft:stone": 1 }
+        y: 16
+        
+update:
+  - "minecraft:water"

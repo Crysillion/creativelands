@@ -1,0 +1,39 @@
+scripts:
+  tall_house: 1
+id: "TALL_HOUSE"
+spawn:
+  start:
+    min: 72
+    max: 72
+  bound:
+    min: 48
+    max: 96
+  width: 175
+  padding: 50
+loot:
+  0: village_house_oak
+features:
+  - type: ENTITY_FEATURE
+    entity: VILLAGER
+    attempts: 75
+    in-height: 2
+    amount:
+      min: 4
+      max: 6
+    spawnable-on:
+      - "minecraft:cobblestone"
+      - "minecraft:grass_block"
+      - "minecraft:oak_stairs"
+      - "minecraft:oak_slab"
+      - "minecraft:polished_andesite"
+      - "minecraft:polished_diorite"
+      - "minecraft:polished_andesite"
+      - "minecraft:stripped_spruce_wood"
+      - "minecraft:stripped_oak_wood"
+      - "minecraft:stone_bricks"
+      - "minecraft:spruce_logs"
+    spawnable-in:
+      - "minecraft:air"
+      - "minecraft:green_carpet"
+      - "minecraft:grass"
+      - "minecraft:tall_grass"

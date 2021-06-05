@@ -1,0 +1,14 @@
+scripts:
+  wideoak1: 1
+  wideoak2: 1
+  wideoak3: 1
+  wideoak4: 1
+  wideoak5: 1
+id: WIDEFORESTCUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"
+  - "minecraft:dirt"

@@ -1,0 +1,17 @@
+scripts:
+  swamp1: 1
+  swamp2: 1
+  swamp3: 1
+  swamp4: 1
+  swamp5: 1
+
+id: SWAMPCUST
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:soul_sand"
+  - "minecraft:brown_concrete_powder"
+  - "minecraft:grass_path"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"
+  - "minecraft:water"

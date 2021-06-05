@@ -1,0 +1,15 @@
+scripts:
+  mushroomisle1: 1
+  mushroomisle2: 1
+  mushroomisle3: 1
+  mushroomisle4: 1
+  mushroomisle5: 1
+  mushroomisle6: 1
+  mushroomisle7: 1
+  mushroomisle8: 1
+  mushroomisle9: 1
+id: MUSHROOMISLE
+y-offset: -4
+spawnable:
+  - "minecraft:mycelium"
+  - "minecraft:sand"

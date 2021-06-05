@@ -1,0 +1,12 @@
+scripts:
+  cavebush1: 1
+  cavebush2: 1
+  cavebush3: 1
+  cavebush4: 1
+id: CAVEBUSH
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:podzol"

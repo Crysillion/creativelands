@@ -1,0 +1,23 @@
+scripts:
+  jungle1: 1
+  jungle2: 1
+  jungle3: 1
+  jungle4: 1
+  jungle5: 1
+  jungle6: 1
+  jungle7: 1
+  jungle8: 1
+  jungle9: 1
+id: JUNGLECUST
+y-offset: -2
+spawnable:
+  - "minecraft:gravel"
+  - "minecraft:brown_terracotta"
+  - "minecraft:grass"
+  - "minecraft:tall_grass"
+  - "minecraft:gravel"
+  - "minecraft:cobblestone"
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"
+  - "minecraft:dirt"

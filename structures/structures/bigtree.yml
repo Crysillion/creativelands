@@ -1,0 +1,13 @@
+scripts:
+  bigtree1: 2
+  bigtree2: 2
+id: "BIGTREE_STRUCTURE"
+spawn:
+  start:
+    min: 48
+    max: 96
+  bound:
+    min: 48
+    max: 96
+  width: 175
+  padding: 20
