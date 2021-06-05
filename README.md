@@ -20,8 +20,6 @@ I offer little-to-no support for this pack. Feel free to look through it, see so
 
 I hope I'm not coming off as rude when saying I offer no support, but I'm done with Minecraft for now and have no desire to mess with it in any capacity.
 
-The pack is ready for use straight out of the box. That is to say that the packs are already .ZIP'd (feel free to unzip them and do as you please).
-
 This pack adds several new biomes alongside Terra's default biomes. Some of Terra's default biomes have been modified. This pack is "complete" in a sense that I've personally used it on a production server with no real issues and have no plans of adding anything else to it.
 
 This pack was designed for Minecraft 1.16 and as such does not utilize the cave system structuring or height changes done in Minecraft 1.17.
