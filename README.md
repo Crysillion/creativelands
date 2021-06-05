@@ -5,7 +5,7 @@
 
 # HOW TO USE
 
-Download default.zip, place it into the appropriate Terra directory. Unzip if you want to modify anything.
+Download the latest release, place it into the appropriate Terra directory. Unzip if you want to modify anything.
 
 This pack was intentionally left as being .ZIP'd due to it having over a hundred structures and schematics within it for the custom biome creation.
 
@@ -15,7 +15,7 @@ You can unzip it using many programs, such as 7Zip and WinRAR, but you will not 
 
 This pack was originally intended for personal use only, but I have since stopped working on Minecraft servers and decided to publish it for public use.
 
-That said, this pack includes large schematics. These will slow world generation considerably and in the case of lesser hardware, crash the generation process completely.
+That said, this pack includes large schematics. These **will slow world generation considerably** and in the case of lesser hardware, crash the generation process completely.
 
 Not everything in this pack is perfect. I'm far from a perfectionist and some things kind of just "are" and I left them there strictly because I didn't want to deal with fixing them, plus they were small enough flaws that players were able to look past them when playing, so it didn't much matter in the end anyway.
 
