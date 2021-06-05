@@ -1,0 +1,10 @@
+scripts:
+  ceiling_cavebush1: 1
+  ceiling_cavebush2: 1
+id: CEILING_CAVEBUSH
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:podzol"

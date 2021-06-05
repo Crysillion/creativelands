@@ -1,0 +1,34 @@
+id "darkbush1";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(0, y + 0, -2) != "LAND") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-2, y + 1, -1, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(-1, y + 1, -2, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(-1, y + 1, -1, "minecraft:spruce_leaves[distance=1,persistent=true]");
+block(-1, y + 2, -1, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(-1, y + 1, 0, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(0, y + 1, -3, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(0, y + 0, -2, "minecraft:air");
+block(0, y + 1, -2, "minecraft:spruce_leaves[distance=1,persistent=true]");
+block(0, y + 2, -2, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(0, y + 0, -1, "minecraft:dark_oak_log[axis=y]");
+block(0, y + 1, -1, "minecraft:dark_oak_log[axis=y]");
+block(0, y + 2, -1, "minecraft:glowstone");
+block(0, y + 3, -1, "minecraft:spruce_leaves[distance=7,persistent=true]");
+block(0, y + 0, 0, "minecraft:air");
+block(0, y + 1, 0, "minecraft:spruce_leaves[distance=1,persistent=true]");
+block(0, y + 2, 0, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(0, y + 1, 1, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(1, y + 1, -2, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(1, y + 1, -1, "minecraft:spruce_leaves[distance=1,persistent=true]");
+block(1, y + 2, -1, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(1, y + 1, 0, "minecraft:spruce_leaves[distance=2,persistent=true]");
+block(2, y + 1, -1, "minecraft:spruce_leaves[distance=2,persistent=true]");

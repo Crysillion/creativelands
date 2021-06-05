@@ -1,0 +1,11 @@
+scripts:
+  redwood1: 1
+  redwood2: 1
+  redwood3: 1
+  redwood4: 1
+  redwood5: 1
+id: REDWOOD
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"

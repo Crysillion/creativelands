@@ -1,0 +1,25 @@
+scripts:
+  oak_1: 1
+  oak_2: 1
+  oak_3: 1
+  oak_4: 1
+  oak_5: 1
+  oak_6: 1
+  oak_7: 1
+  Oak__1: 1
+  Oak__2: 1
+  Oak__3: 1
+  Oak__4: 1
+  Oak__5: 1
+  Oak__6: 1
+  Oak__7: 1
+  Oak__8: 1
+  Oak__9: 1
+  Oak__10: 1
+  Oak__11: 1
+  Oak__12: 1
+id: OAK
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"

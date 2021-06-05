@@ -1,0 +1,9 @@
+scripts:
+  pine1: 1
+  pine2: 1
+id: PINE
+y-offset: -2
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

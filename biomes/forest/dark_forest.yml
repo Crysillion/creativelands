@@ -1,0 +1,45 @@
+extends: "FOREST_ABSTRACT"
+id: "DARK_FOREST"
+
+structures:
+  - STRONGHOLD
+  - DUNGEON
+  - TALL_HOUSE
+  - VILLAGE_PLAINS
+palette:
+  - "BLOCK:minecraft:bedrock": 0
+  - BEDROCK_MOST: 1
+  - BEDROCK_HALF: 2
+  - BEDROCK_LITTLE: 3
+  - SANDY: 62
+  - GRASSY: 255
+vanilla: DARK_FOREST
+carving:
+  CAVE_FOREST: 80
+  RAVINE: 2
+
+trees:
+  - density: 5
+    items:
+      - BIGTREE: 5
+      - DARKBUSH: 5
+    y:
+      min: 66
+      max: 120
+  - density: 6
+    items:
+      - CAVEBUSH: 6
+    y:
+      min: 20
+      max: 60
+  - density: 1
+    items:
+      - CAVETREE: 1
+    y:
+      min: 20
+      max: 60
+
+
+tags:
+  - "LAND"
+  - RIVER_ERODE

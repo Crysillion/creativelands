@@ -1,0 +1,363 @@
+id: CREATIVELANDS
+author: Crysillion
+version: 1.0.0
+
+structures:
+  locatable:
+    minecraft:desert_pyramid: DESERT
+    minecraft:stronghold: STRONGHOLD
+    minecraft:pillager_outpost: OUTPOST
+    minecraft:swamp_hut: SWAMP
+    minecraft:monument: MONUMENT
+    minecraft:igloo: IGLOO
+    minecraft:jungle_pyramid: JUNGLE
+    minecraft:ruined_portal: RUINED_PORTAL
+    minecraft:village: VILLAGE
+    minecraft:mineshaft: MINESHAFT
+
+blend:
+  terrain:
+    base: 16
+    elevation: 4
+
+vanilla:
+  mobs: true
+
+disable:
+  sapling: true
+
+noise:
+  noise2:
+    dimensions: 2
+    type: OpenSimplex2
+    frequency: 0.0075
+    fractal:
+      type: FBm
+      octaves: 4
+    noise:
+      type: WhiteNoise
+  noise3:
+    dimensions: 3
+    type: OpenSimplex2
+    frequency: 0.0075
+    fractal:
+      type: FBm
+      octaves: 4
+  rand:
+    dimensions: 2
+    type: WhiteNoise
+  noiseC:
+    dimensions: 2
+    type: Cellular
+    frequency: 0.25
+    cellular:
+      return: NoiseLookup
+      lookup:
+        dimensions: 2
+        type: OpenSimplex2
+        frequency: 0.02
+        fractal:
+          type: FBm
+          octaves: 4
+locatable:
+  STRONGHOLD: STRONGHOLD
+variables:
+  base: 63
+biomes:
+  type: PIPELINE
+  resolution: 1
+  blend:
+    amplitude: 0
+    noise:
+      type: Constant
+  image:
+    name: map.jpg
+  pipeline:
+    source:
+      type: NOISE
+      biomes:
+        OCEAN: 1
+        PLAINS: 2
+      noise:
+        type: OpenSimplex2
+        frequency: 0.02
+    stages:
+      - mutate: # Ocean climate distribution
+          type: REPLACE
+          from: "BIOME:OCEAN"
+          to:
+            - "COLD_OCEAN_DEEP": 3
+            - "OCEAN_DEEP": 4
+            - "WARM_OCEAN_DEEP": 9
+          noise:
+            type: OpenSimplex2 # Use Simplex, so hot cannot be directly next to cold.
+            salt: 2 # Salt with 2 so ocean & land have same climates.
+            frequency: 0.02
+      - mutate: # Land climate distribution
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - TUNDRA: 1
+            - PLAINS: 1
+            - JUNGLE: 1
+          noise:
+            type: OpenSimplex2 # Use Simplex, so hot cannot be directly next to cold.
+            salt: 2 # Salt with 2 so ocean & land have same climates.
+            frequency: 0.02
+      - mutate:
+          type: REPLACE
+          from: "BIOME:WARM_OCEAN_DEEP"
+          to:
+            - "WARM_OCEAN_DEEP": 1
+            - "LUKEWARM_OCEAN_DEEP": 4
+          noise:
+            type: WhiteNoise
+            salt: 21
+      - mutate: # Randomize Cold/Frozen oceans.
+          type: REPLACE
+          from: "BIOME:COLD_OCEAN_DEEP"
+          to:
+            - "COLD_OCEAN_DEEP": 4
+            - "FROZEN_OCEAN_DEEP": 1
+          noise:
+            type: WhiteNoise
+            salt: 21
+      - mutate: # Randomize Cold/Frozen oceans.
+          type: REPLACE
+          from: "BIOME:FROZEN_OCEAN_DEEP"
+          to:
+            - "FROZEN_OCEAN_DEEP": 3
+            - "GLACIER": 1
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+            salt: 22
+      - mutate: # Randomize Cold/Frozen oceans.
+          type: REPLACE
+          from: "BIOME:OCEAN_DEEP"
+          to:
+            - "OCEAN_DEEP": 3
+            - "OCEAN_SKY": 2
+            - "MUSHROOM": 2
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+            salt: 23
+      - mutate: # Humidity distribution of warm biomes
+          type: REPLACE
+          from: "BIOME:JUNGLE"
+          to:
+            - JUNGLE: 2
+            - SAVANNA: 1
+            - DESERT: 2
+          noise:
+            type: OpenSimplex2 # Use Simplex, so wet cannot be directly next to dry.
+            salt: 5
+            frequency: 0.02
+      - mutate: # Neutral warm biomes.
+          type: REPLACE
+          from: "BIOME:SAVANNA"
+          to:
+            - FOREST: 1
+            - PLAINS: 1
+            - YELLOWSTONE: 1
+            - SHATTERED_YELLOWSTONE: 1
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+            salt: 6
+      - mutate: # Dry warm biomes
+          type: REPLACE
+          from: "BIOME:DESERT"
+          to:
+            - MESA: 1
+#            - SHATTERED_MESA: 1
+            - DESERT: 1
+            - SHATTERED_DESERT: 1
+            - SAVANNA: 1
+            - SHATTERED_SAVANNA: 1
+            - ARID_MOUNTAINS: 1
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+            salt: 7
+      - mutate: # Wet warm biomes
+          type: REPLACE
+          from: "BIOME:JUNGLE"
+          to:
+            - JUNGLE: 2
+            - MOUNTAINS_JUNGLE: 2
+            - ROCKY_TALL_FOREST: 2
+            - TALL_FOREST: 2
+            - SHATTERED_TALL_FOREST: 2
+#            - SHATTERED_ROCKY_TALL_FOREST: 1
+            - SWAMP: 1
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+            salt: 8
+      - mutate: # Distribution of neutral temperature biomes.
+          type: REPLACE
+          from: "BIOME:PLAINS"
+          to:
+            - FOREST: 2
+#            - SHATTERED_FOREST: 2
+            - BIRCH: 2
+#            - SHATTERED_BIRCH: 2
+            - PLAINS: 3
+            - SHATTERED_PLAINS: 2
+            - SKY_ISLANDS: 2
+            - DARK_FOREST: 8
+            - CRAG: 2
+            - MOUNTAINS_PRETTY: 2
+            - CRYSTAL: 4
+#            - SHATTERED_CRYSTAL: 4
+            - PASSAGE_MOUNTAINS: 7
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.05
+            salt: 9
+      - mutate: # Distribution of cold biomes.
+          type: REPLACE
+          from: "BIOME:TUNDRA"
+          to:
+            - TAIGA: 1
+            - SHATTERED_TAIGA: 1
+            - SNOWY_TAIGA: 1
+            - SHATTERED_SNOWY_TAIGA: 1
+            - MOUNTAINS_STONE: 1
+            - TUNDRA: 1
+            - SHATTERED_TUNDRA: 1
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+            salt: 10
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 11
+      - mutate: # Border deep ocean with normal ocean.
+          type: BORDER_LIST
+          from: LAND
+          replace:
+            WARM_OCEAN_DEEP: WARM_OCEAN
+            LUKEWARM_OCEAN_DEEP: LUKEWARM_OCEAN
+            COLD_OCEAN_DEEP: COLD_OCEAN
+            FROZEN_OCEAN_DEEP: FROZEN_OCEAN
+          default-replace: OCEAN_DEEP
+          default-to: OCEAN
+          noise:
+            type: Constant
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 11
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 12
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 13
+      - mutate: # Generate beaches at land/ocean border.
+          type: BORDER
+          from: OCEAN
+          replace: LAND
+          to:
+            - BEACH: 5
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.001
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 14
+      - mutate: # Mushroom beaches.
+          type: BORDER
+          from: OCEAN
+          replace: LAND_MUSHROOM
+          to:
+            - MUSHROOM_BEACH: 1
+          noise:
+            type: Cellular # Use cellular to increase biome size.
+            cellular:
+              return: CellValue
+            frequency: 0.02
+      - mutate: # Regular ocean around mushroom biomes, to prevent steep drop-off.
+          type: BORDER
+          from: BIOME:MUSHROOM_BEACH
+          replace: OCEAN_DEEP
+          to:
+            - OCEAN: 1
+          noise:
+            type: Constant
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 18
+      - expand:
+          type: FRACTAL
+          noise:
+            type: WhiteNoise
+            salt: 16
+      - mutate: # Erode rivers.
+          type: REPLACE_LIST
+          to:
+            MOUNTAINS_JUNGLE:
+              - SELF: 5
+              - RIVER_M_J: 1
+              - SELF: 5
+            MOUNTAINS_STONE:
+              - SELF: 5
+              - RIVER_M: 1
+              - SELF: 5
+            MOUNTAINS_PRETTY:
+              - SELF: 5
+              - RIVER_M_P: 1
+              - SELF: 5
+          default-from: "RIVER_ERODE"
+          default-to:
+            - SELF: 5
+            - RIVER: 1
+            - SELF: 5
+          noise:
+            type: OpenSimplex2
+            frequency: 0.003
+            fractal:
+              octaves: 2
+              type: FBm
+              gain: 0.2
+              lacunarity: 4
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 18
+      - mutate:
+          type: SMOOTH
+          noise:
+            type: WhiteNoise
+            salt: 19

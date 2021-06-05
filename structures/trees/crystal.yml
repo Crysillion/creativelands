@@ -1,0 +1,29 @@
+scripts:
+  glasstree_pink1: 1
+  glasstree_white1: 1
+  glasstree_cyan1: 1
+  glasstree_magenta1: 1
+  glasstree_blue1: 1
+  glasstree_pink2: 1
+  glasstree_white2: 1
+  glasstree_cyan2: 1
+  glasstree_magenta2: 1
+  glasstree_blue2: 1
+  glasstree_pink3: 1
+  glasstree_white3: 1
+  glasstree_cyan3: 1
+  glasstree_magenta3: 1
+  glasstree_blue3: 1
+  glasstree_pink4: 1
+  glasstree_white4: 1
+  glasstree_cyan4: 1
+  glasstree_magenta4: 1
+  glasstree_blue4: 1
+id: CRYSTAL
+y-offset: -2
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:warped_nylium"
+  - "minecraft:netherrack"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

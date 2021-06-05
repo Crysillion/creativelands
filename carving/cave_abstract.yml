@@ -1,0 +1,44 @@
+abstract: true
+id: CAVE_ABSTRACT
+
+step: 2
+recalculate-direction:
+  min: 10
+  max: 30
+length:
+  min: 40
+#  max: 80
+  max: 200
+start:
+  x: 1
+  y: 0.2
+  z: 1
+  radius:
+#    x: "((rand(seed) + 1)*2+1) * if(max(rand(seed+1)-0.5, 0), 1, 1.25)"
+#    y: "(rand(seed) + 1)*2+1"
+#    z: "((rand(seed) + 1)*2+1) * if(max(rand(seed+1)-0.5, 0), 1, 1.25)"
+    x: "((rand(seed, 0) + 1)*2.5+1) * if(max(rand(seed+1, 0)-0.5, 0), 1, 2)"
+    y: "(rand(seed, 0) + 1)*2.5+1"
+    z: "((rand(seed, 0) + 1)*2.5+1) * if(max(rand(seed+1, 0)-0.5, 0), 1, 2)"
+  height:
+    min: 6
+    max: 32
+cut:
+  top: 0
+  bottom: 2
+mutate:
+  x: 1
+  y: 1
+  z: 1
+  radius: 0.1
+shift:
+  "minecraft:grass_block": [ "minecraft:dirt" ]
+  "minecraft:mycelium": [ "minecraft:dirt" ]
+  "minecraft:podzol": [ "minecraft:dirt" ]
+  "minecraft:gravel": [ "minecraft:dirt" ]
+  "minecraft:sand": [ "minecraft:dirt" ]
+  "minecraft:coarse_dirt": [ "minecraft:dirt" ]
+
+#update: [ ]
+update:
+  - "minecraft:water"

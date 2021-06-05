@@ -1,0 +1,6 @@
+material: "minecraft:brown_mushroom_block[north=false,south=false]"
+size:
+  min: 4
+  max: 4
+extends: MINERAL
+id: "VANADIUM_ORE"

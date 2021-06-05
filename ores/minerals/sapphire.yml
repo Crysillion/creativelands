@@ -1,0 +1,6 @@
+material: "minecraft:brown_mushroom_block[up=false,north=false]"
+size:
+  min: 8
+  max: 8
+extends: MINERAL
+id: "SAPPHIRE"

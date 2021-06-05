@@ -1,0 +1,16 @@
+layers:
+  - materials:
+      - "minecraft:gravel": 1
+      - "minecraft:warped_nylium": 4
+      - "minecraft:sand": 2
+    layers: 1
+  - materials:
+      - "minecraft:netherrack": 1
+    layers: 2
+  - materials:
+      - "minecraft:stone": 1
+    layers: 1
+id: "CRYSTAL_SHORE"
+simplex: true
+frequency: 0.05
+seed: 3

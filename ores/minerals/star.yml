@@ -1,0 +1,6 @@
+material: "minecraft:brown_mushroom_block[west=false,up=false]"
+size:
+  min: 4
+  max: 4
+extends: MINERAL
+id: "STAR_ORE"

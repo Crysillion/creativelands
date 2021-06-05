@@ -1,0 +1,11 @@
+scripts:
+  mushroom1: 1
+  mushroom2: 1
+  mushroom3: 1
+  mushroom4: 1
+id: MUSHROOMCUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

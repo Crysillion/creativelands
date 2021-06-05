@@ -1,0 +1,12 @@
+scripts:
+  medsavanna1: 1
+  medsavanna2: 1
+  medsavanna3: 1
+  medsavanna4: 1
+  medsavanna5: 1
+id: MEDSAVANNACUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:coarse_dirt"

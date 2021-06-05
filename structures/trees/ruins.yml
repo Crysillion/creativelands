@@ -1,0 +1,14 @@
+scripts:
+  ruin1: 1
+  ruin2: 1
+  ruin3: 1
+  ruin4: 1
+
+id: RUINSCUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

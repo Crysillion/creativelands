@@ -1,0 +1,16 @@
+layers:
+  - materials:
+      - "minecraft:shroomlight": 1
+      - "minecraft:oak_fence": 1
+    layers: 1
+id: "CEILING_GLOWSTONE"
+ceiling: true
+spawnable:
+  - "minecraft:stone"
+  - "minecraft:gravel"
+  - "minecraft:dirt"
+  - "minecraft:coarse_dirt"
+  - "minecraft:grass_block"
+replaceable:
+  - "minecraft:air"
+  - "minecraft:stone_slab"

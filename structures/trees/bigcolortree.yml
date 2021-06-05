@@ -1,0 +1,17 @@
+scripts:
+  colorbigtree_yellow1: 1
+  colorbigtree_orange1: 1
+  colorbigtree_red1: 1
+  colorbigtree_brown1: 1
+  colorbigtree_yellow2: 1
+  colorbigtree_orange2: 1
+  colorbigtree_red2: 1
+  colorbigtree_brown2: 1
+id: BIGCOLORTREE
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:dirt"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

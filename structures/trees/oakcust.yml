@@ -1,0 +1,11 @@
+scripts:
+  oak1: 1
+  oak2: 1
+  oak3: 1
+  oak4: 1
+  oak5: 1
+id: OAKCUST
+y-offset: -4
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"

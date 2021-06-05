@@ -1,0 +1,13 @@
+scripts:
+  darkbush1: 1
+  darkbush2: 1
+  darkbush3: 1
+#  forestcust/bigtreeA: 1
+#  forestcust/bigtreeB: 1
+id: DARKBUSH
+y-offset: 0
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

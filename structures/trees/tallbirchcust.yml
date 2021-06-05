@@ -1,0 +1,17 @@
+scripts:
+  tallbirch1: 1
+  tallbirch2: 1
+  tallbirch3: 1
+  tallbirch4: 1
+  tallbirch5: 1
+  tallbirch6: 1
+  tallbirch7: 1
+  tallbirch8: 1
+  tallbirch9: 1
+  tallbirch10: 1
+id: TALLBIRCH
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

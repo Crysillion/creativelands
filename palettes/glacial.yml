@@ -1,0 +1,11 @@
+layers:
+  - materials:
+      - "minecraft:snow_block": 1
+    layers: 1
+  - materials:
+      - "minecraft:packed_ice": 1
+    layers: 8
+  - materials:
+      - "minecraft:blue_ice": 1
+    layers: 90
+id: "GLACIAL"

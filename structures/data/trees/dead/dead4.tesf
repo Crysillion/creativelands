@@ -1,0 +1,37 @@
+id "dead4";
+
+num y = 0;
+for(y; y > -50; y = y - 1) {
+    if(check(0, y + 2, 0) != "LAND") {
+        continue;
+    }
+    break;
+}
+if(y <= -50) {
+    fail;
+}
+block(-4, y + 7, 0, "minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]");
+block(-3, y + 6, 0, "minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]");
+block(-3, y + 7, 0, "minecraft:oak_wood[axis=y]");
+block(-2, y + 5, 0, "minecraft:spruce_fence[east=true,north=false,south=false,waterlogged=false,west=false]");
+block(-2, y + 6, 0, "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]");
+block(-1, y + 7, -2, "minecraft:oak_wood[axis=y]");
+block(-1, y + 8, -2, "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]");
+block(-1, y + 5, -1, "minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false]");
+block(-1, y + 6, -1, "minecraft:oak_wood[axis=y]");
+block(-1, y + 2, 0, "minecraft:oak_log[axis=y]");
+block(-1, y + 3, 0, "minecraft:oak_wood[axis=y]");
+block(-1, y + 4, 0, "minecraft:oak_wood[axis=y]");
+block(-1, y + 5, 0, "minecraft:oak_wood[axis=y]");
+block(-1, y + 6, 1, "minecraft:oak_wood[axis=y]");
+block(-1, y + 7, 1, "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]");
+block(-1, y + 6, 2, "minecraft:oak_wood[axis=y]");
+block(-1, y + 6, 3, "minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]");
+block(-1, y + 7, 3, "minecraft:spruce_fence[east=false,north=false,south=true,waterlogged=false,west=false]");
+block(-1, y + 7, 4, "minecraft:spruce_fence[east=false,north=true,south=false,waterlogged=false,west=false]");
+block(0, y + 2, 0, "minecraft:air");
+block(0, y + 4, 0, "minecraft:air");
+block(0, y + 5, 0, "minecraft:oak_wood[axis=y]");
+block(1, y + 6, 0, "minecraft:oak_wood[axis=y]");
+block(1, y + 7, 0, "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=false]");
+block(2, y + 6, 0, "minecraft:spruce_fence[east=false,north=false,south=false,waterlogged=false,west=true]");

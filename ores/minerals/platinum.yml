@@ -1,0 +1,6 @@
+material: "minecraft:brown_mushroom_block[up=false,north=false,south=false]"
+size:
+  min: 6
+  max: 6
+extends: MINERAL
+id: "PLATINUM_ORE"

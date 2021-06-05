@@ -1,0 +1,11 @@
+scripts:
+  ruin5: 1
+
+id: BIGRUINSCUST
+y-offset: -1
+spawnable:
+  - "minecraft:grass_block"
+  - "minecraft:gravel"
+  - "minecraft:sand"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"

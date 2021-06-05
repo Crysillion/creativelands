@@ -1,0 +1,20 @@
+scripts:
+  twistedmushroom1: 1
+  twistedmushroom2: 1
+  twistedmushroom3: 1
+  twistedmushroom4: 1
+  twistedmushroom5: 1
+  twistedmushroom6: 1
+  twistedmushroom7: 1
+  twistedmushroom8: 1
+  twistedmushroom9: 1
+  twistedmushroom10: 1
+  twistedmushroom11: 1
+  twistedmushroom12: 1
+id: TWISTEDMUSHROOM
+y-offset: -4
+spawnable:
+  - "minecraft:warped_nylium"
+  - "minecraft:grass_block"
+  - "minecraft:podzol"
+  - "minecraft:coarse_dirt"
