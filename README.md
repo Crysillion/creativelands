@@ -9,7 +9,7 @@ Download default.zip, place it into the appropriate Terra directory. Unzip if yo
 
 This pack was intentionally left as being .ZIP'd due to it having over a hundred structures and schematics within it for the custom biome creation.
 
-You can unzip it using many programs, such as 7Zip and WinRAR.
+You can unzip it using many programs, such as 7Zip and WinRAR, but you will not actually need to unzip it to use it.
 
 # READ ME
 
