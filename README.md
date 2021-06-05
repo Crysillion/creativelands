@@ -5,7 +5,8 @@
 
 # HOW TO USE
 
-Download the latest release, place it into the appropriate Terra directory. Unzip if you want to modify anything.
+Download the latest release, place it into the appropriate Terra directory. Unzip if you want to modify anything.    
+The pack ID is `CREATIVELANDS`. See Terra's [installing a Config Pack](https://github.com/PolyhedralDev/Terra/wiki/Config-Packs#how-do-i-install-a-pack) guide if you need help installing.
 
 This pack was intentionally left as being .ZIP'd due to it having over a hundred structures and schematics within it for the custom biome creation.
 
@@ -23,7 +24,7 @@ I offer little-to-no support for this pack. Feel free to look through it, see so
 
 I hope I'm not coming off as rude when saying I offer no support, but I'm done with Minecraft for now and have no desire to mess with it in any capacity.
 
-The pack is ready for use straight out of the box. That is to say that the packs are already .ZIP'd (feel free to unzip them and do as you please). The naming convention I chose works off of the default setup of Terra, so simply by having your world recognizing Terra in your bukkit settings or whatever should be enough for this pack to work.
+The pack is ready for use straight out of the box. That is to say that the packs are already .ZIP'd (feel free to unzip them and do as you please).
 
 This pack adds several new biomes alongside Terra's default biomes. Some of Terra's default biomes have been modified. This pack is "complete" in a sense that I've personally used it on a production server with no real issues and have no plans of adding anything else to it.
 
