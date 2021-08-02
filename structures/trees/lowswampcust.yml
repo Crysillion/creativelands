@@ -9,7 +9,7 @@ spawnable:
   - "minecraft:grass_block"
   - "minecraft:soul_sand"
   - "minecraft:brown_concrete_powder"
-  - "minecraft:grass_path"
+  - "minecraft:dirt_path"
   - "minecraft:podzol"
   - "minecraft:coarse_dirt"
   - "minecraft:dirt"
