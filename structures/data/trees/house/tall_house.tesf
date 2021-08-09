@@ -2502,7 +2502,7 @@ block(-4, y + 13, 1, "minecraft:dirt");
 block(-4, y + 14, 1, "minecraft:dirt");
 block(-4, y + 15, 1, "minecraft:dirt");
 block(-4, y + 16, 1, "minecraft:polished_andesite");
-block(-4, y + 17, 1, "minecraft:cauldron[level=0]");
+block(-4, y + 17, 1, "minecraft:water_cauldron");
 block(-4, y + 18, 1, "minecraft:air");
 block(-4, y + 19, 1, "minecraft:air");
 block(-4, y + 20, 1, "minecraft:air");
